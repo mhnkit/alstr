@@ -1,0 +1,12 @@
+{
+  "name": "alstr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Alstr: hackathon team finder. Static interactive demo, no backend.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node test/core.test.js",
+    "start": "npm run build && npx --yes serve dist"
+  },
+  "engines": { "node": ">=18" }
+}
